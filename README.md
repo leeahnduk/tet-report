@@ -26,6 +26,7 @@ $ pip3 install -r requirements.txt
 
 ## Screenshots
 ![Example screenshot](https://github.com/leeahnduk/tet-report/blob/master/tet-report.jpg)
+![Vulerabilities report screenshot](https://github.com/leeahnduk/tet-report/blob/master/tet-vul.jpg)
 
 ## UserGuide
 How to use this application:
