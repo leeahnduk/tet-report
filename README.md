@@ -47,6 +47,8 @@ To start the script, just use: `python3 tet-report.py --url https://tet-cluster-
 Object support:
   * workloads       Build report about all workloads or detail about a specific workload
   * flows           Build top flow report in a specific timerange
+  * apps            Build application report into xlsx format
+
 
 ```
 
@@ -76,8 +78,47 @@ Detail Vulnerable Software Packages report for a specific workload or all worklo
 tetcli #  report workloads vulnerabilities all
 Detail Vulnerable Software Packages report for all workloads that match a CVE score query.
 
+tetcli #  report workloads vulnerabilities workload
+Detail Vulnerable Software Packages report for a specific workload.
+
 tetcli #  report workloads processes ?
 Detail Running processes report for a specific workload. Sub command: summary or all
+
+tetcli #  report workloads processes summary
+Summary Running processes report for a specific workload.
+
+tetcli #  report workloads processes all
+Detail all Running processes report for a specific workload.
+
+tetcli #  report apps ?
+Build application report into xlsx format. Sub command: conversation or policies
+
+tetcli #  report apps conv
+Download conversation report into xlsx format for a specific application.
+
+tetcli #  report apps pol
+Build detail application policies report into xlsx format.
+
+tetcli #  report flows ?
+Build top flow report in a specific timerange. Sub command: inventory or top
+
+tetcli #  report flows inv
+Detail flow communication report about a subnet in a VRF from time (t0) to time(t1).
+
+tetcli #  report flows top ?
+Top Talkers/Destination/Service report in excel for a scope from time (t0) to time(t1). Sub command: talkers, servers, sports, dports
+
+tetcli #  report flows top talkers
+Top Talkers report in excel for a scope from time (t0) to time(t1).
+
+tetcli #  report flows top dest
+Top Destination report in excel for a scope from time (t0) to time(t1).
+
+tetcli #  report flows top sport
+Top source Service report in excel for a scope from time (t0) to time(t1). 
+
+tetcli #  report flows top dport
+Top Destination Service report in excel for a scope from time (t0) to time(t1). Sub command: talkers, servers, sports, dports
 
 
 ```
