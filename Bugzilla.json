@@ -1,0 +1,1203 @@
+[
+    {
+        "id": "5ce210e0497d4f4dd588fcc6",
+        "name": "Bugzilla",
+        "app_scope_id": "5ce210a6755f0224eda468d8",
+        "description": null,
+        "author": "Takayuki Mitsue",
+        "primary": true,
+        "alternate_query_mode": true,
+        "enforced_version": 0,
+        "enforcement_enabled": false,
+        "created_at": 1558319328,
+        "latest_adm_version": 14,
+        "version": "v14",
+        "app_scope": {
+            "filter_type": "AppScope",
+            "id": "5ce210a6755f0224eda468d8",
+            "name": "tmitsue:Lab:Bugzilla",
+            "description": null,
+            "short_name": "Bugzilla",
+            "priority": "003:001:002:Z",
+            "short_priority": 2,
+            "policy_priority": 6,
+            "query": {
+                "type": "and",
+                "filters": [
+                    {
+                        "field": "vrf_id",
+                        "type": "eq",
+                        "value": 676768
+                    },
+                    {
+                        "field": "user_location",
+                        "type": "eq",
+                        "value": "Lab"
+                    },
+                    {
+                        "field": "user_App",
+                        "type": "eq",
+                        "value": "Bugzilla"
+                    }
+                ]
+            },
+            "short_query": {
+                "type": "eq",
+                "field": "user_App",
+                "value": "Bugzilla"
+            },
+            "dirty": false,
+            "dirty_short_query": null,
+            "vrf_id": 676768,
+            "parent_app_scope_id": "5ce21068755f0278f6a468d9",
+            "root_app_scope_id": "5cde5ce5755f027d7ea468dd",
+            "child_app_scope_ids": [],
+            "created_at": 1558319270,
+            "updated_at": 1584320531,
+            "deleted_at": null
+        },
+        "absolute_policies": [],
+        "default_policies": [
+            {
+                "consumer_filter_id": "5e4f6a7c497d4f1cbda6f539",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b34",
+                "consumer_filter_name": "Employee",
+                "provider_filter_name": "haproxy-app",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    },
+                    {
+                        "port": [
+                            8080,
+                            8080
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 90
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b38",
+                "provider_filter_id": "5ce3459c755f023683a468dc",
+                "consumer_filter_name": "db",
+                "provider_filter_name": "DNS",
+                "l4_params": [
+                    {
+                        "port": [
+                            53,
+                            53
+                        ],
+                        "proto": 17,
+                        "confidence": 1.0,
+                        "approved": false
+                    },
+                    {
+                        "proto": 1,
+                        "confidence": 0.91,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b34",
+                "provider_filter_id": "5ce3459c755f023683a468dc",
+                "consumer_filter_name": "haproxy-app",
+                "provider_filter_name": "DNS",
+                "l4_params": [
+                    {
+                        "port": [
+                            53,
+                            53
+                        ],
+                        "proto": 17,
+                        "confidence": 1.0,
+                        "approved": false
+                    },
+                    {
+                        "proto": 1,
+                        "confidence": 0.91,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5ce21096497d4f519e88fcbc",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b37",
+                "consumer_filter_name": "tmitsue:Lab:Shared Service",
+                "provider_filter_name": "app",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "confidence": 0.95,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5cde5ce5755f027d7ea468dd",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b38",
+                "consumer_filter_name": "tmitsue",
+                "provider_filter_name": "db",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "confidence": 0.95,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b38",
+                "provider_filter_id": "5cde5ce5755f027d7ea468dd",
+                "consumer_filter_name": "db",
+                "provider_filter_name": "tmitsue",
+                "l4_params": [
+                    {
+                        "port": [
+                            123,
+                            123
+                        ],
+                        "proto": 17,
+                        "confidence": 1.0,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "confidence": 0.95,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b37",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b39",
+                "consumer_filter_name": "app",
+                "provider_filter_name": "haproxy-db",
+                "l4_params": [
+                    {
+                        "port": [
+                            3306,
+                            3306
+                        ],
+                        "proto": 6,
+                        "confidence": 0.98,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b37",
+                "provider_filter_id": "5ce21096497d4f519e88fcbc",
+                "consumer_filter_name": "app",
+                "provider_filter_name": "tmitsue:Lab:Shared Service",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "confidence": 0.96,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            443,
+                            443
+                        ],
+                        "proto": 6,
+                        "confidence": 0.95,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b39",
+                "provider_filter_id": "5cde5ce5755f027d7ea468dd",
+                "consumer_filter_name": "haproxy-db",
+                "provider_filter_name": "tmitsue",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "confidence": 0.95,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            123,
+                            123
+                        ],
+                        "proto": 17,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b39",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b38",
+                "consumer_filter_name": "haproxy-db",
+                "provider_filter_name": "db",
+                "l4_params": [
+                    {
+                        "port": [
+                            3306,
+                            3306
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b37",
+                "provider_filter_id": "5ce2572d497d4f3f5388fcc2",
+                "consumer_filter_name": "app",
+                "provider_filter_name": "tmitsue:Tetration",
+                "l4_params": [
+                    {
+                        "port": [
+                            443,
+                            443
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            5660,
+                            5660
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5ceb833a755f020559a468eb",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b34",
+                "consumer_filter_name": "SSH_Jumpbox",
+                "provider_filter_name": "haproxy-app",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b34",
+                "provider_filter_id": "5ce2572d497d4f3f5388fcc2",
+                "consumer_filter_name": "haproxy-app",
+                "provider_filter_name": "tmitsue:Tetration",
+                "l4_params": [
+                    {
+                        "port": [
+                            443,
+                            443
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            5660,
+                            5660
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b39",
+                "provider_filter_id": "5ce2572d497d4f3f5388fcc2",
+                "consumer_filter_name": "haproxy-db",
+                "provider_filter_name": "tmitsue:Tetration",
+                "l4_params": [
+                    {
+                        "port": [
+                            443,
+                            443
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            5660,
+                            5660
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b34",
+                "provider_filter_id": "5cde5ce5755f027d7ea468dd",
+                "consumer_filter_name": "haproxy-app",
+                "provider_filter_name": "tmitsue",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "confidence": 0.95,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            123,
+                            123
+                        ],
+                        "proto": 17,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b37",
+                "provider_filter_id": "5cde5ce5755f027d7ea468dd",
+                "consumer_filter_name": "app",
+                "provider_filter_name": "tmitsue",
+                "l4_params": [
+                    {
+                        "port": [
+                            123,
+                            123
+                        ],
+                        "proto": 17,
+                        "confidence": 1.0,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "confidence": 0.98,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b39",
+                "provider_filter_id": "5ce3459c755f023683a468dc",
+                "consumer_filter_name": "haproxy-db",
+                "provider_filter_name": "DNS",
+                "l4_params": [
+                    {
+                        "port": [
+                            53,
+                            53
+                        ],
+                        "proto": 17,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5cde5ce5755f027d7ea468dd",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b39",
+                "consumer_filter_name": "tmitsue",
+                "provider_filter_name": "haproxy-db",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "confidence": 0.95,
+                        "approved": false
+                    },
+                    {
+                        "proto": 1,
+                        "confidence": 0.91,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5cde5ce5755f027d7ea468dd",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b34",
+                "consumer_filter_name": "tmitsue",
+                "provider_filter_name": "haproxy-app",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "confidence": 0.95,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b37",
+                "provider_filter_id": "5ce3459c755f023683a468dc",
+                "consumer_filter_name": "app",
+                "provider_filter_name": "DNS",
+                "l4_params": [
+                    {
+                        "proto": 1,
+                        "confidence": 0.91,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            53,
+                            53
+                        ],
+                        "proto": 17,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b38",
+                "provider_filter_id": "5ce2572d497d4f3f5388fcc2",
+                "consumer_filter_name": "db",
+                "provider_filter_name": "tmitsue:Tetration",
+                "l4_params": [
+                    {
+                        "port": [
+                            443,
+                            443
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    },
+                    {
+                        "port": [
+                            5660,
+                            5660
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5d1ae455755f021c8d3a3b34",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b37",
+                "consumer_filter_name": "haproxy-app",
+                "provider_filter_name": "app",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "confidence": 1.0,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5cde5ce5755f027d7ea468dd",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b37",
+                "consumer_filter_name": "tmitsue",
+                "provider_filter_name": "app",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "confidence": 0.97,
+                        "approved": false
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5ceb833a755f020559a468eb",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b37",
+                "consumer_filter_name": "SSH_Jumpbox",
+                "provider_filter_name": "app",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5ceb833a755f020559a468eb",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b39",
+                "consumer_filter_name": "SSH_Jumpbox",
+                "provider_filter_name": "haproxy-db",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5ceb833a755f020559a468eb",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b38",
+                "consumer_filter_name": "SSH_Jumpbox",
+                "provider_filter_name": "db",
+                "l4_params": [
+                    {
+                        "port": [
+                            22,
+                            22
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            },
+            {
+                "consumer_filter_id": "5ce21068755f0278f6a468d9",
+                "provider_filter_id": "5d1ae455755f021c8d3a3b34",
+                "consumer_filter_name": "tmitsue:Lab",
+                "provider_filter_name": "haproxy-app",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 100
+            }
+        ],
+        "catch_all_action": "DENY",
+        "clusters": [
+            {
+                "id": "5d1ae455755f021c8d3a3b37",
+                "consistent_uuid": "5d1adca9755f023300282f17",
+                "name": "app",
+                "approved": true,
+                "nodes": [
+                    {
+                        "ip": "172.18.11.1",
+                        "name": "app1"
+                    },
+                    {
+                        "ip": "172.18.11.2",
+                        "name": "app2"
+                    },
+                    {
+                        "ip": "172.18.11.3",
+                        "name": "app3"
+                    }
+                ],
+                "external": false,
+                "cluster_queries": [
+                    {
+                        "type": "or",
+                        "filters": [
+                            {
+                                "field": "ip",
+                                "type": "eq",
+                                "value": "172.18.11.1"
+                            },
+                            {
+                                "field": "ip",
+                                "type": "eq",
+                                "value": "172.18.11.2"
+                            },
+                            {
+                                "field": "ip",
+                                "type": "eq",
+                                "value": "172.18.11.3"
+                            }
+                        ]
+                    },
+                    {
+                        "field": "user_Function",
+                        "type": "eq",
+                        "value": "Web"
+                    },
+                    {
+                        "type": "and",
+                        "filters": [
+                            {
+                                "field": "user_Function",
+                                "type": "eq",
+                                "value": "Web"
+                            },
+                            {
+                                "field": "host_name",
+                                "type": "contains",
+                                "value": "app"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "and",
+                        "filters": [
+                            {
+                                "field": "user_Function",
+                                "type": "contains",
+                                "value": "Web"
+                            },
+                            {
+                                "type": "or",
+                                "filters": [
+                                    {
+                                        "field": "user_Function",
+                                        "type": "eq",
+                                        "value": "Web"
+                                    },
+                                    {
+                                        "field": "host_name",
+                                        "type": "eq",
+                                        "value": "app3"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "and",
+                        "filters": [
+                            {
+                                "field": "host_name",
+                                "type": "contains",
+                                "value": "app"
+                            },
+                            {
+                                "type": "or",
+                                "filters": [
+                                    {
+                                        "field": "user_Function",
+                                        "type": "eq",
+                                        "value": "Web"
+                                    },
+                                    {
+                                        "field": "host_name",
+                                        "type": "eq",
+                                        "value": "app1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "and",
+                        "filters": [
+                            {
+                                "field": "host_name",
+                                "type": "contains",
+                                "value": "app"
+                            },
+                            {
+                                "type": "or",
+                                "filters": [
+                                    {
+                                        "field": "user_Function",
+                                        "type": "eq",
+                                        "value": "Web"
+                                    },
+                                    {
+                                        "field": "host_name",
+                                        "type": "eq",
+                                        "value": "app3"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "and",
+                        "filters": [
+                            {
+                                "field": "user_Function",
+                                "type": "contains",
+                                "value": "Web"
+                            },
+                            {
+                                "type": "or",
+                                "filters": [
+                                    {
+                                        "field": "user_Function",
+                                        "type": "eq",
+                                        "value": "Web"
+                                    },
+                                    {
+                                        "field": "host_name",
+                                        "type": "eq",
+                                        "value": "app1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "alternate_selected": true,
+                "short_query": {
+                    "field": "user_Function",
+                    "type": "eq",
+                    "value": "Web"
+                }
+            },
+            {
+                "id": "5d1ae455755f021c8d3a3b38",
+                "consistent_uuid": "5d1adca9755f023300282f13",
+                "name": "db",
+                "approved": true,
+                "nodes": [
+                    {
+                        "ip": "172.18.11.4",
+                        "name": "db"
+                    }
+                ],
+                "external": false,
+                "cluster_queries": [
+                    {
+                        "type": "or",
+                        "filters": [
+                            {
+                                "field": "ip",
+                                "type": "eq",
+                                "value": "172.18.11.4"
+                            }
+                        ]
+                    },
+                    {
+                        "field": "user_Function",
+                        "type": "eq",
+                        "value": "DB"
+                    },
+                    {
+                        "field": "host_name",
+                        "type": "eq",
+                        "value": "db"
+                    },
+                    {
+                        "type": "and",
+                        "filters": [
+                            {
+                                "field": "user_Function",
+                                "type": "contains",
+                                "value": "DB"
+                            },
+                            {
+                                "field": "host_name",
+                                "type": "eq",
+                                "value": "db"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "5d1ae455755f021c8d3a3b34",
+                "consistent_uuid": "5d1adca9755f023300282f16",
+                "name": "haproxy-app",
+                "nodes": [
+                    {
+                        "ip": "172.18.11.11",
+                        "name": "haproxy-app"
+                    }
+                ],
+                "external": false,
+                "cluster_queries": [
+                    {
+                        "type": "or",
+                        "filters": [
+                            {
+                                "field": "ip",
+                                "type": "eq",
+                                "value": "172.18.11.11"
+                            }
+                        ]
+                    },
+                    {
+                        "field": "host_name",
+                        "type": "eq",
+                        "value": "haproxy-app"
+                    },
+                    {
+                        "field": "host_name",
+                        "type": "contains",
+                        "value": "haproxy-app"
+                    },
+                    {
+                        "field": "user_Function",
+                        "type": "contains",
+                        "value": "Web-Proxy"
+                    },
+                    {
+                        "field": "user_Function",
+                        "type": "eq",
+                        "value": "Web-Proxy"
+                    }
+                ]
+            },
+            {
+                "id": "5d1ae455755f021c8d3a3b39",
+                "consistent_uuid": "5d1adca9755f023300282f18",
+                "name": "haproxy-db",
+                "approved": true,
+                "nodes": [
+                    {
+                        "ip": "172.18.11.12",
+                        "name": "haproxy-db"
+                    }
+                ],
+                "external": false,
+                "cluster_queries": [
+                    {
+                        "type": "or",
+                        "filters": [
+                            {
+                                "field": "ip",
+                                "type": "eq",
+                                "value": "172.18.11.12"
+                            }
+                        ]
+                    },
+                    {
+                        "field": "user_Function",
+                        "type": "eq",
+                        "value": "DB-Proxy"
+                    },
+                    {
+                        "field": "host_name",
+                        "type": "contains",
+                        "value": "haproxy-db"
+                    },
+                    {
+                        "field": "user_Function",
+                        "type": "contains",
+                        "value": "DB-Proxy"
+                    },
+                    {
+                        "field": "host_name",
+                        "type": "eq",
+                        "value": "haproxy-db"
+                    }
+                ],
+                "alternate_selected": true,
+                "short_query": {
+                    "field": "user_Function",
+                    "type": "eq",
+                    "value": "DB-Proxy"
+                }
+            }
+        ],
+        "inventory_filters": [
+            {
+                "id": "5ce3459c755f023683a468dc",
+                "filter_type": "UserInventoryFilter",
+                "name": "DNS",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "field": "user_location",
+                            "type": "eq",
+                            "value": "Lab"
+                        },
+                        {
+                            "type": "or",
+                            "filters": [
+                                {
+                                    "field": "user_App",
+                                    "type": "eq",
+                                    "value": "Shared"
+                                },
+                                {
+                                    "field": "ip",
+                                    "type": "eq",
+                                    "value": "10.0.0.1"
+                                },
+                                {
+                                    "field": "ip",
+                                    "type": "eq",
+                                    "value": "10.0.0.2"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "ip",
+                            "type": "eq",
+                            "value": "172.16.17.18"
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5ce21096497d4f519e88fcbc",
+                    "name": "tmitsue:Lab:Shared Service"
+                }
+            },
+            {
+                "id": "5e4f6a7c497d4f1cbda6f539",
+                "filter_type": "UserInventoryFilter",
+                "name": "Employee",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "field": "user_ISE_ctsSecurityGroup",
+                            "type": "eq",
+                            "value": "Employees"
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5cde5ce5755f027d7ea468dd",
+                    "name": "tmitsue"
+                }
+            },
+            {
+                "id": "5ceb833a755f020559a468eb",
+                "filter_type": "UserInventoryFilter",
+                "name": "SSH_Jumpbox",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "field": "user_Function",
+                            "type": "eq",
+                            "value": "SSH-Jumpbox"
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5ce21096497d4f519e88fcbc",
+                    "name": "tmitsue:Lab:Shared Service"
+                }
+            },
+            {
+                "id": "5cde5ce5755f027d7ea468dd",
+                "filter_type": "AppScope",
+                "name": "tmitsue",
+                "query": {
+                    "type": "eq",
+                    "field": "vrf_id",
+                    "value": 676768
+                }
+            },
+            {
+                "id": "5ce21068755f0278f6a468d9",
+                "filter_type": "AppScope",
+                "name": "tmitsue:Lab",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "field": "user_location",
+                            "type": "eq",
+                            "value": "Lab"
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5cde5ce5755f027d7ea468dd",
+                    "name": "tmitsue"
+                }
+            },
+            {
+                "id": "5ce21096497d4f519e88fcbc",
+                "filter_type": "AppScope",
+                "name": "tmitsue:Lab:Shared Service",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "field": "user_location",
+                            "type": "eq",
+                            "value": "Lab"
+                        },
+                        {
+                            "type": "or",
+                            "filters": [
+                                {
+                                    "field": "user_App",
+                                    "type": "eq",
+                                    "value": "Shared"
+                                },
+                                {
+                                    "field": "ip",
+                                    "type": "eq",
+                                    "value": "10.0.0.1"
+                                },
+                                {
+                                    "field": "ip",
+                                    "type": "eq",
+                                    "value": "10.0.0.2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5ce21068755f0278f6a468d9",
+                    "name": "tmitsue:Lab"
+                }
+            },
+            {
+                "id": "5ce2572d497d4f3f5388fcc2",
+                "filter_type": "AppScope",
+                "name": "tmitsue:Tetration",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "field": "ip",
+                            "type": "subnet",
+                            "value": "172.17.1.0/24"
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5cde5ce5755f027d7ea468dd",
+                    "name": "tmitsue"
+                }
+            }
+        ],
+        "vrf": {
+            "id": 676768,
+            "name": "tmitsue",
+            "tenant_id": 676768,
+            "tenant_name": "676768"
+        }
+    }
+]
