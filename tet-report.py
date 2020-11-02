@@ -16,7 +16,10 @@ from collections import defaultdict
 from tqdm import tqdm as progress
 import urllib3
 import xlsxwriter
+from xlsxwriter import Workbook
+import openpyxl
 from openpyxl import Workbook
+from openpyxl.chart import BarChart3D,Reference 
 import re
 
 
@@ -654,12 +657,9 @@ def get_flow_topTalkers(rc):
     to_day = input(CYELLOW + "Day (dd)? "+CEND)
     t0 = round(datetime.datetime(int(from_year),int(from_month),(int(from_day)+1),0,0).timestamp())
     t1 = round(datetime.datetime(int(to_year),int(to_month),(int(to_day)+1),0,0).timestamp())
-    #dimensions = GetFlowDimensions(rc)
     metrics = GetFlowMetrics(rc)
     print (Cyan + "Here are the available metrics: \n" + json.dumps(metrics, indent=4, sort_keys=True) + CEND)
     metric = input (Cyan + "which one you want to query? (copy and paste here): " +  CEND)
-    #print (Cyan + "Here are the available dimensions: \n" + json.dumps(metrics, indent=4, sort_keys=True))
-    #dimension = input (Cyan + "which one you want to query? (copy and paste here) ")
     req_payload = {
     "t0": t0,    
     "t1": t1,    
@@ -674,7 +674,6 @@ def get_flow_topTalkers(rc):
     resp = rc.post('/flowsearch/topn',
                json_body=json.dumps(req_payload))
 
-    #print (json.dumps(cve_hosts, indent=4))
     if resp.status_code != 200:
         print(URED + "Failed to retrieve TopN")
         print(resp.status_code)
@@ -701,6 +700,7 @@ def get_flow_topTalkers(rc):
         workbook = xlsxwriter.Workbook(export_csvfile)
         bold = workbook.add_format({'bold': True})
         worksheet = workbook.add_worksheet(name='Top Source Address')
+        #chartsheet = workbook.add_chartsheet(name='Top Source Address Chart') 
         cell_format = workbook.add_format()
         cell_format.set_bg_color('cyan')
         cell_format.set_bold()
@@ -715,6 +715,23 @@ def get_flow_topTalkers(rc):
         worksheet.set_column(0, 0, 30)
         worksheet.set_column(1, 1, 30)
         workbook.close()
+
+        '''workbook = xlsxwriter.Workbook(export_csvfile)
+        worksheet = workbook.active 
+        chart1 = BarChart3D()
+        chart1.title = 'Top Source Address'
+        chart1.y_axis.title = 'Source Address'
+        chart1.x_axis.title = metric
+
+        data = Reference(worksheet, min_col = 2, min_row = 2, 
+                         max_col = 2, max_row = len(topN_list))
+        titles = Reference(worksheet, min_col=1, min_row=2, max_row = len(topN_list))
+        chart1.add_data(data, titles_from_data=True)
+        chart.set_categories(titles)
+        chart1.shape = 4
+        worksheet.add_chart(chart1, "D07")
+        workbook.save(export_csvfile)
+        workbook.close()'''
 
         print ('Writing csv file to %s with %d columns' % (export_csvfile, len(csv_header)))
 
