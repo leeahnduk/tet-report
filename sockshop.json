@@ -1,0 +1,1531 @@
+[
+    {
+        "id": "5f922b94497d4f0e6fbcb220",
+        "name": "sockshop",
+        "app_scope_id": "5f922adf497d4f0e6fbcb21b",
+        "description": "Created by Tetration API",
+        "author": "Site Admin",
+        "primary": true,
+        "alternate_query_mode": true,
+        "enforced_version": 0,
+        "enforcement_enabled": false,
+        "created_at": 1603414932,
+        "latest_adm_version": 1,
+        "version": "v1",
+        "app_scope": {
+            "filter_type": "AppScope",
+            "id": "5f922adf497d4f0e6fbcb21b",
+            "name": "ASEAN_DMZ:OpenShift",
+            "description": null,
+            "short_name": "OpenShift",
+            "priority": "004:001:Z",
+            "short_priority": 1,
+            "policy_priority": 2,
+            "query": {
+                "type": "and",
+                "filters": [
+                    {
+                        "field": "vrf_id",
+                        "type": "eq",
+                        "value": 676768
+                    },
+                    {
+                        "field": "user_orchestrator_system/cluster_name",
+                        "type": "contains",
+                        "value": "DMZ-OpenShift3"
+                    }
+                ]
+            },
+            "short_query": {
+                "type": "contains",
+                "field": "user_orchestrator_system/cluster_name",
+                "value": "DMZ-OpenShift3"
+            },
+            "dirty": false,
+            "dirty_short_query": null,
+            "vrf_id": 676768,
+            "parent_app_scope_id": "5f6aa074497d4f18b5a8b1fb",
+            "root_app_scope_id": "5f6aa074497d4f18b5a8b1fb",
+            "child_app_scope_ids": [],
+            "created_at": 1603414751,
+            "updated_at": 1603414751,
+            "deleted_at": null
+        },
+        "absolute_policies": [],
+        "default_policies": [
+            {
+                "consumer_filter_id": "5f922b95755f02689280007a",
+                "provider_filter_id": "5f922b95755f026892800078",
+                "consumer_filter_name": "front-end-sock-shop",
+                "provider_filter_name": "catalogue-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 20
+            },
+            {
+                "consumer_filter_id": "5f922b95755f02689280007a",
+                "provider_filter_id": "5f922b95497d4f0e6abcb0bd",
+                "consumer_filter_name": "front-end-sock-shop",
+                "provider_filter_name": "carts-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 20
+            },
+            {
+                "consumer_filter_id": "5f922b95755f02689280007a",
+                "provider_filter_id": "5f922b96755f02689280007c",
+                "consumer_filter_name": "front-end-sock-shop",
+                "provider_filter_name": "payment-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 20
+            },
+            {
+                "consumer_filter_id": "5f922b95755f02689280007a",
+                "provider_filter_id": "5f922b98497d4f0e6dbcb0bf",
+                "consumer_filter_name": "front-end-sock-shop",
+                "provider_filter_name": "user-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 20
+            },
+            {
+                "consumer_filter_id": "5f922b96497d4f0e6fbcb231",
+                "provider_filter_id": "5f922b96755f02372b800719",
+                "consumer_filter_name": "orders-sock-shop",
+                "provider_filter_name": "orders-db-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            27017,
+                            27017
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 30
+            },
+            {
+                "consumer_filter_id": "5f922b96497d4f0e6fbcb231",
+                "provider_filter_id": "5f922b98497d4f0e6dbcb0bf",
+                "consumer_filter_name": "orders-sock-shop",
+                "provider_filter_name": "user-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 30
+            },
+            {
+                "consumer_filter_id": "5f922b96497d4f0e6fbcb231",
+                "provider_filter_id": "5f922b95497d4f0e6abcb0bd",
+                "consumer_filter_name": "orders-sock-shop",
+                "provider_filter_name": "carts-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 30
+            },
+            {
+                "consumer_filter_id": "5f922b96497d4f0e6fbcb231",
+                "provider_filter_id": "5f922b96755f02689280007c",
+                "consumer_filter_name": "orders-sock-shop",
+                "provider_filter_name": "payment-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 30
+            },
+            {
+                "consumer_filter_id": "5f922b96497d4f0e6fbcb231",
+                "provider_filter_id": "5f922b97497d4f0e6fbcb233",
+                "consumer_filter_name": "orders-sock-shop",
+                "provider_filter_name": "shipping-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 30
+            },
+            {
+                "consumer_filter_id": "5f922b98755f0266d8800ed2",
+                "provider_filter_id": "5f922b97755f026892800080",
+                "consumer_filter_name": "user-sock-shop",
+                "provider_filter_name": "user-db-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            27017,
+                            27017
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 40
+            },
+            {
+                "consumer_filter_id": "5f922b95497d4f0e6dbcb0b9",
+                "provider_filter_id": "5f922b95755f026892800076",
+                "consumer_filter_name": "catalogue-sock-shop",
+                "provider_filter_name": "catalogue-db-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            3306,
+                            3306
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 50
+            },
+            {
+                "consumer_filter_id": "5f922b96497d4f0e6abcb0bf",
+                "provider_filter_id": "5f922b96755f020db5800c4f",
+                "consumer_filter_name": "payment-sock-shop",
+                "provider_filter_name": "orders-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 50
+            },
+            {
+                "consumer_filter_id": "5f922b95755f02689280007a",
+                "provider_filter_id": "5f922b96755f020db5800c4f",
+                "consumer_filter_name": "front-end-sock-shop",
+                "provider_filter_name": "orders-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 50
+            },
+            {
+                "consumer_filter_id": "5f922b95755f02372b800717",
+                "provider_filter_id": "5f922b95497d4f0e6abcb0bb",
+                "consumer_filter_name": "carts-sock-shop",
+                "provider_filter_name": "carts-db-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            27017,
+                            27017
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 60
+            },
+            {
+                "consumer_filter_id": "5f922b97497d4f0e6dbcb0bd",
+                "provider_filter_id": "5f922b97755f020db5800c51",
+                "consumer_filter_name": "queue-master-sock-shop",
+                "provider_filter_name": "rabbitmq-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            5672,
+                            5672
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 70
+            },
+            {
+                "consumer_filter_id": "5f922b97755f02689280007e",
+                "provider_filter_id": "5f922b97755f020db5800c51",
+                "consumer_filter_name": "shipping-sock-shop",
+                "provider_filter_name": "rabbitmq-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            5672,
+                            5672
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 80
+            },
+            {
+                "consumer_filter_id": "5f922b97497d4f0e69bcb255",
+                "provider_filter_id": "5f922b97755f02372b80071b",
+                "consumer_filter_name": "rabbitmq-sock-shop",
+                "provider_filter_name": "queue-master-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 90
+            },
+            {
+                "consumer_filter_id": "5f922b94755f020db5800c4d",
+                "provider_filter_id": "5f922b95497d4f0e6fbcb22f",
+                "consumer_filter_name": "all-pods-sock-shop",
+                "provider_filter_name": "core-dns-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            53,
+                            53
+                        ],
+                        "proto": 17,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 110
+            },
+            {
+                "consumer_filter_id": "5f922b96755f0266d8800ed0",
+                "provider_filter_id": "5f922b96497d4f0e6dbcb0bb",
+                "consumer_filter_name": "kube-nodes-sock-shop",
+                "provider_filter_name": "front-end-svc-sock-shop",
+                "l4_params": [
+                    {
+                        "port": [
+                            80,
+                            80
+                        ],
+                        "proto": 6,
+                        "approved": true
+                    }
+                ],
+                "action": "ALLOW",
+                "priority": 120
+            }
+        ],
+        "catch_all_action": "DENY",
+        "inventory_filters": [
+            {
+                "id": "5f922b94755f020db5800c4d",
+                "filter_type": "UserInventoryFilter",
+                "name": "all-pods-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/workload_type",
+                                            "type": "eq",
+                                            "value": "pod"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b95497d4f0e6abcb0bb",
+                "filter_type": "UserInventoryFilter",
+                "name": "carts-db-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "carts-db"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b95755f02372b800717",
+                "filter_type": "UserInventoryFilter",
+                "name": "carts-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "carts"
+                                        },
+                                        {
+                                            "type": "not",
+                                            "filter": {
+                                                "field": "user_orchestrator_system/pod_name",
+                                                "type": "contains",
+                                                "value": "carts-db"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b95497d4f0e6abcb0bd",
+                "filter_type": "UserInventoryFilter",
+                "name": "carts-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "carts"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b95755f026892800076",
+                "filter_type": "UserInventoryFilter",
+                "name": "catalogue-db-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "catalogue-db"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b95497d4f0e6dbcb0b9",
+                "filter_type": "UserInventoryFilter",
+                "name": "catalogue-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "catalogue"
+                                        },
+                                        {
+                                            "type": "not",
+                                            "filter": {
+                                                "field": "user_orchestrator_system/pod_name",
+                                                "type": "contains",
+                                                "value": "catalogue-db"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b95755f026892800078",
+                "filter_type": "UserInventoryFilter",
+                "name": "catalogue-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "catalogue"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b95497d4f0e6fbcb22f",
+                "filter_type": "UserInventoryFilter",
+                "name": "core-dns-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "field": "user_orchestrator_system/cluster_name",
+                                    "type": "eq",
+                                    "value": "DMZ-OpenShift3-m1"
+                                },
+                                {
+                                    "field": "user_orchestrator_system/namespace",
+                                    "type": "eq",
+                                    "value": "kube-proxy-and-dns"
+                                },
+                                {
+                                    "field": "user_orchestrator_system/pod_name",
+                                    "type": "contains",
+                                    "value": "dns"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b95755f02689280007a",
+                "filter_type": "UserInventoryFilter",
+                "name": "front-end-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "front-end"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b96497d4f0e6dbcb0bb",
+                "filter_type": "UserInventoryFilter",
+                "name": "front-end-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "front-end"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b96755f0266d8800ed0",
+                "filter_type": "UserInventoryFilter",
+                "name": "kube-nodes-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "or",
+                            "filters": [
+                                {
+                                    "field": "user_orchestrator_node-role.kubernetes.io/compute",
+                                    "type": "eq",
+                                    "value": "True"
+                                },
+                                {
+                                    "field": "user_orchestrator_node-role.kubernetes.io/infra",
+                                    "type": "eq",
+                                    "value": "True"
+                                },
+                                {
+                                    "field": "user_orchestrator_node-role.kubernetes.io/master",
+                                    "type": "eq",
+                                    "value": "True"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b96755f02372b800719",
+                "filter_type": "UserInventoryFilter",
+                "name": "orders-db-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "orders-db"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b96497d4f0e6fbcb231",
+                "filter_type": "UserInventoryFilter",
+                "name": "orders-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "orders"
+                                        },
+                                        {
+                                            "type": "not",
+                                            "filter": {
+                                                "field": "user_orchestrator_system/pod_name",
+                                                "type": "contains",
+                                                "value": "orders-db"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b96755f020db5800c4f",
+                "filter_type": "UserInventoryFilter",
+                "name": "orders-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "orders"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b96497d4f0e6abcb0bf",
+                "filter_type": "UserInventoryFilter",
+                "name": "payment-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "payment"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b96755f02689280007c",
+                "filter_type": "UserInventoryFilter",
+                "name": "payment-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "payment"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b97497d4f0e6dbcb0bd",
+                "filter_type": "UserInventoryFilter",
+                "name": "queue-master-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "queue-master"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b97755f02372b80071b",
+                "filter_type": "UserInventoryFilter",
+                "name": "queue-master-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "queue-master"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b97497d4f0e69bcb255",
+                "filter_type": "UserInventoryFilter",
+                "name": "rabbitmq-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "rabbitmq"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b97755f020db5800c51",
+                "filter_type": "UserInventoryFilter",
+                "name": "rabbitmq-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "rabbitmq"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b97755f02689280007e",
+                "filter_type": "UserInventoryFilter",
+                "name": "shipping-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "shipping"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b97497d4f0e6fbcb233",
+                "filter_type": "UserInventoryFilter",
+                "name": "shipping-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "shipping"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b97755f026892800080",
+                "filter_type": "UserInventoryFilter",
+                "name": "user-db-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "user-db"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b98755f0266d8800ed2",
+                "filter_type": "UserInventoryFilter",
+                "name": "user-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/pod_name",
+                                            "type": "contains",
+                                            "value": "user"
+                                        },
+                                        {
+                                            "type": "not",
+                                            "filter": {
+                                                "field": "user_orchestrator_system/pod_name",
+                                                "type": "contains",
+                                                "value": "user-db"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            },
+            {
+                "id": "5f922b98497d4f0e6dbcb0bf",
+                "filter_type": "UserInventoryFilter",
+                "name": "user-svc-sock-shop",
+                "query": {
+                    "type": "and",
+                    "filters": [
+                        {
+                            "field": "vrf_id",
+                            "type": "eq",
+                            "value": 676768
+                        },
+                        {
+                            "type": "and",
+                            "filters": [
+                                {
+                                    "type": "and",
+                                    "filters": [
+                                        {
+                                            "field": "user_orchestrator_system/cluster_name",
+                                            "type": "eq",
+                                            "value": "DMZ-OpenShift3-m1"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/service_name",
+                                            "type": "eq",
+                                            "value": "user"
+                                        },
+                                        {
+                                            "field": "user_orchestrator_system/namespace",
+                                            "type": "eq",
+                                            "value": "sock-shop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "parent_app_scope": {
+                    "id": "5f922adf497d4f0e6fbcb21b",
+                    "name": "ASEAN_DMZ:OpenShift"
+                }
+            }
+        ],
+        "vrf": {
+            "id": 676768,
+            "name": "ASEAN_DMZ",
+            "tenant_id": 676768,
+            "tenant_name": "676768"
+        }
+    }
+]

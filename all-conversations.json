@@ -1,0 +1,2630 @@
+[
+    {
+        "offset": "eyJDb250ZXh0IjoiIiwiUGFnZU9mZnNldE1hcCI6eyJhZG1fNWY5ZjZhODY0OTdkNGYwZTZmYmNjMGRjXzFfMjAyMC0xMC0zMFQwOTowMDowMC4wMDBaXzIwMjAtMTEtMDFUMjM6NTk6NTkuMDAwWl8yMDIwLTExLTAyVDAyMTIyMloiOjk5fX0=",
+        "results": [
+            {
+                "address_type": "IPv4",
+                "byte_count": 10843,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "853",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 173415500,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.72.66",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8009",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 199290230,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.72.66",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8009",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2081406737,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 1346,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "88",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 25448,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "2979",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 342,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a07",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.1",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "67",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.88"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 19275,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "691",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 67496,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.23",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "0",
+                "protocol": "ICMP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a0b",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "51.79.161.173"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 3974,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "547",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 127292691,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.72.64",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8009",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 10262,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "3389",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 51570,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0b",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "207.148.72.47",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.23"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 240,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "88",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4681773,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "209.132.183.108",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 3277,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "5640",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 1607373563,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0d",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.131"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2340865894,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0d",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.141"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 304,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a07",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.30",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "67",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.88"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 27109110,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "192.168.30.6",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "5660",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.21"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 5410,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "547",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 11163,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "1720",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2848,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "1720",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4847,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "137",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 232,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "3784",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2465,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "3784",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 817210945,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.9.8.21"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 12878,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 304,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.30",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "67",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 3345750,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a04",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b94755f020db5800c4d",
+                    "5f922b98755f0266d8800ed2"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.24",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "53",
+                "protocol": "UDP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a0b",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.166"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 8436,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "143",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 28600126,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "23.77.63.76",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 8040,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "4342",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 10755,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "2043",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4930,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "4342",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 324974730,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.227.0.6",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a09",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 1972,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "646",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 830940,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a09",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.7"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 24529586,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a03",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.138"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 20333,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "1300",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 12292,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "5061",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 38520,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.255.255.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4143,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "5061",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4681919,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "209.132.183.108",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4681754,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0b",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "209.132.183.108",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.24"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 424093064,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0d",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.140"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 9982,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "161",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 342,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.1",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "67",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 51570,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "103.47.76.177",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 51660,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "51.79.160.255",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 43287060,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0b",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.227.0.66",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "1936",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a0d",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "src_ip": "10.9.8.24"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 128297089,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a08",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.72.66",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8009",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.102"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 8260,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "4789",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 7949,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "1985",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 986,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "4789",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 51570,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "218.186.3.36",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 12120,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "4739",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2185075,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "192.168.30.5",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.21"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4437,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "5353",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 5115,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "514",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 21355,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "3020",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2171,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "3020",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 1540,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "138",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 7403959,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0c",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "53",
+                "protocol": "UDP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.4"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2409289019,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a09",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.6"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4930,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "500",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 1216983686,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8472",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 1626324403,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0d",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "count": 1,
+                "dst_ip": "10.9.8.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f49319919ff",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.227.0.147"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 39029578,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8472",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 38700,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.255.255.11",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 51570,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "207.148.72.47",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.21"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 9896,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "2042",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 5960,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "161",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4061668,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "23.34.107.215",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 51570,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0b",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "203.123.48.218",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.23"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 17644,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "5060",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4124,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "1813",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 4104782,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "23.15.154.138",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 1479,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "1813",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 1479,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "3306",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 51570,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "209.97.168.88",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 23195,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "646",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 493,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "2029",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 6312269738,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.240.92",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8472",
+                "protocol": "UDP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a06",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.0.0.32"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 815938,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "192.168.20.201",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "2049",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 272,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "2049",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 7291,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "2049",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 22236681,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.48.102",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8472",
+                "protocol": "UDP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a08",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2465,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "69",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.98"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 833276,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0b",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "192.168.20.201",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "2049",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.24"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 235888058,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.227.0.145",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "5000",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a05",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 104372932,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.227.0.3",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a09",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 2287421,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "192.168.30.5",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.22"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 51660,
+                "confidence": "0.80",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a0b",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "218.186.3.37",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "123",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.9.8.23"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 316373801,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.227.0.4",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "6443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a0c",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 220714573,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f49319919ff",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.227.0.7",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "8443",
+                "protocol": "TCP",
+                "provider_filter_id": "5f9f6b39497d4f4931991a09",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b"
+                ],
+                "src_ip": "10.9.8.11"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 232,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "514",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 24024,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "161",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 8370,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a06",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "69",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.240.92"
+            },
+            {
+                "address_type": "IPv4",
+                "byte_count": 186,
+                "confidence": "0.95",
+                "consumer_filter_id": "5f9f6b39497d4f4931991a02",
+                "consumer_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb",
+                    "5f922adf497d4f0e6fbcb21b",
+                    "5f922b96755f0266d8800ed0"
+                ],
+                "count": 1,
+                "dst_ip": "10.0.0.32",
+                "excluded": "false",
+                "exclusion_filter_type": "NULL",
+                "exclusion_filter_uuid": null,
+                "packet_count": 0,
+                "port": "138",
+                "protocol": "UDP",
+                "provider_filter_id": "5f6aa074497d4f18b5a8b1fb",
+                "provider_filter_ids": [
+                    "5f69d424497d4f5f4cc85c73",
+                    "5f6aa074497d4f18b5a8b1fb"
+                ],
+                "src_ip": "10.0.48.97"
+            }
+        ]
+    }
+]
